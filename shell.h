@@ -1,7 +1,8 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-/* important function of the shell */
+/* important functions of the shell */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,6 +13,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #define TOK_DELIM " \t\r\n\v\a"
+
 /**
  * struct list_path - singly linked list
  * @dir: string - (malloc'ed string)
